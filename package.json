@@ -2,7 +2,7 @@
   "name": "foldtracker",
   "displayName": "FoldTracker",
   "description": "Track the count of folded lines with ease",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.90.0"
   },
@@ -14,10 +14,14 @@
   "contributes": {
     "commands": [
       {
-        "command": "foldtracker.helloWorld",
-        "title": "Hello World"
+        "command": "extension.foldCounter",
+        "title": "Show Folded Lines Count"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-wordcount.git"
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
